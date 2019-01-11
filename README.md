@@ -13,16 +13,16 @@ Several python modules are required for the application to run successfully.  Th
 ### Installation Notes / Prerequisites
 #### Python Modules:
 **lxml**
-> pip3 install lxml
+	pip3 install lxml
 
 *Note: depends libxml2-dev and libxslt1-dev packages; Debian/Ubuntu Install: sudo apt install libxml2-dev libxslt1-dev
 *
 **requests**
->pip3 install requests
+	pip3 install requests
 
 **flask and flask-ask**
->pip3 install flask 
->pip3 install flask-ask
+	pip3 install flask 
+	pip3 install flask-ask
 
 #### Flask Server Layout:
 >pi@pi-lego:~ $ tree --dirsfirst /home/pi/FLASK  
