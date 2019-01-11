@@ -25,13 +25,13 @@ Several python modules are required for the application to run successfully.  Th
 >pip3 install flask-ask
 
 #### Flask Server Layout:
->pi@pi-lego:~ $ tree --dirsfirst /home/pi/FLASK
-/home/pi/FLASK
-└── POKEMON
-    ├── templates
-    │   └── main.html
-    ├── pokemon_skill.py3
-    └── templates.yaml
+>pi@pi-lego:~ $ tree --dirsfirst /home/pi/FLASK  
+/home/pi/FLASK  
+└── POKEMON  
+    ├── templates  
+    │   └── main.html  
+    ├── pokemon_skill.py3  
+    └── templates.yaml  
 
 >2 directories, 3 files
 
