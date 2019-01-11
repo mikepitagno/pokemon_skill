@@ -18,12 +18,14 @@ Several python modules are required for the application to run successfully.  Th
 *Note: depends libxml2-dev and libxslt1-dev packages; Debian/Ubuntu Install: sudo apt install libxml2-dev libxslt1-dev
 *
 **requests**
-	pip3 install requests
-
+```
+pip3 install requests
+```
 **flask and flask-ask**
-	pip3 install flask 
-	pip3 install flask-ask
-
+```
+pip3 install flask 
+pip3 install flask-ask
+```
 #### Flask Server Layout:
 >pi@pi-lego:~ $ tree --dirsfirst /home/pi/FLASK  
 /home/pi/FLASK  
@@ -36,11 +38,8 @@ Several python modules are required for the application to run successfully.  Th
 >2 directories, 3 files
 
 #### ngrok:
->pi@pi-lego:~/NGROK $ unzip ngrok-stable-linux-arm.zip
-Archive:  ngrok-stable-linux-arm.zip
-  inflating: ngrok   
-  
->pi@pi-lego:~/NGROK $ ./ngrok authtoken <Auth Token Code> 
-Authtoken saved to configuration file: /home/pi/.ngrok2/ngrok.yml  
-
->pi@pi-lego:~/NGROK $ ./ngrok http 5000
+```
+unzip ngrok-stable-linux-arm.zip
+./ngrok authtoken <Auth Token Code> 
+./ngrok http 5000
+```
